@@ -1,5 +1,5 @@
 const express = require("express")
-const router = require("./router/router")
+const router = require("./api/getRequests")
 const port = 3000
 
 const app = express()
