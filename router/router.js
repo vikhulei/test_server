@@ -10,4 +10,8 @@ router.get("/second", (req, res) => {
     res.send(`<h1 style="color: blue">Second</h1>`)
 })
 
+router.get("/third", (req, res) => {
+    res.send(req.app.locals.test)
+})
+
 module.exports = router
