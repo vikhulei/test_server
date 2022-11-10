@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon ./bin/server.js",
+    "engine": "nodemon ./app/engine/engine.js"
   },
   "author": "",
   "license": "ISC",
