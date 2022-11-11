@@ -5,6 +5,11 @@ class Engine {
         this.generation = null
     }
     
+    start() {
+        console.log("starting the engine")
+        this.buildGeneration()
+    }
+
     buildGeneration() {
         this.generation = new Generation()
         console.log(this.generation)
@@ -14,6 +19,4 @@ class Engine {
     }
 }
 
-const engine = new Engine()
-
-engine.buildGeneration()
+module.exports = Engine

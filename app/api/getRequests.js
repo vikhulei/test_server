@@ -11,7 +11,7 @@ router.get("/second", (req, res) => {
 })
 
 router.get("/third", (req, res) => {
-    res.send(req.app.locals.test)
+    res.json({test: req.app.locals.test})
 })
 
 module.exports = router
