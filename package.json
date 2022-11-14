@@ -6,7 +6,8 @@
   "scripts": {
     "server": "nodemon ./bin/server.js",
     "engine": "nodemon ./app/engine/engine.js",
-    "db": "bash ./bin/configure_db.sh"
+    "db": "bash ./bin/configure_db.sh",
+    "engine-db": "nodemon ./bin/server.js bash ./bin/configure_db.sh"
   },
   "author": "",
   "license": "ISC",
